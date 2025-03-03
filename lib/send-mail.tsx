@@ -21,6 +21,7 @@ const transporter = nodemailer.createTransport({
 export async function sendMail({ email, sendTo, subject, text, html }: { email: string; sendTo?: string; subject: string; text: string; html?: string }) {
   try {
     const isVerified = await transporter.verify();
+    console.log(isVerified);
   } catch (error) {
     console.error('Something Went Wrong', SMTP_SERVER_USERNAME, SMTP_SERVER_PASSWORD, error);
     return;

@@ -1,8 +1,9 @@
 'use server';
 
-import { sendEmail } from "@/app/api/sendmail/route";
+import {sendEmail} from "@/app/api/sendmail"
 
-export async function sendEnquiryEmail(data: any) :Promise<any>{
+// eslint-disable-next-line  @typescript-eslint/no-explicit-any
+export async function sendEnquiryEmail(data: {name: string, email:string, mobile: string, enquiryType: string}) :Promise<any>{
   const enqMessage = getMessageforEnquiryType(data.enquiryType);
   const emailBody = getEmailBody(data);
   const result = await sendEmail(data.email, "Cross Business Boundary - "+enqMessage, emailBody);
@@ -21,7 +22,7 @@ function getMessageforEnquiryType(enquiryType: string) {
   }
 }
 
-function getEmailBody(data: any) :string{
+function getEmailBody(data: {name: string, email:string, mobile: string, enquiryType: string}) :string{
 
   const enqMessage = getMessageforEnquiryType(data.enquiryType);
 

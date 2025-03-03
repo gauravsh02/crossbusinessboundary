@@ -1,17 +1,16 @@
 import Image from "next/image";
-import { Phone, SquarePlay, CircleCheckBig, Mail, Twitter } from "lucide-react";
+import { Phone, SquarePlay, CircleCheckBig, Mail } from "lucide-react";
 import { Separator } from "@/components/ui/separator"
 import ModeToggle from "@/components/theme/theme-toggle";
 
 import { EnquiryForm } from "@/components/forms/enquiry-form";
 import { YoutubeModal } from "@/components/modal/youtube-modal";
 import { TestimonialsCard } from "@/components/testimonials-card";
-import { TestimonialsCarousel } from "@/components/testimonials-carousel";
+// import { TestimonialsCarousel } from "@/components/testimonials-carousel";
 
 export default function Home() {
-  const obj = {"youtubeId":"sdadsa"};
-  return (
 
+  return (
     <div className="grid items-center bg-gray-950 dark:bg-white font-[family-name:var(--font-geist-sans)]">
 
       <header className="sticky top-0 z-50 w-full border-b bg-white dark:border-gray-800 dark:bg-gray-950" data-id="3">
@@ -202,7 +201,7 @@ export default function Home() {
                       <div className="w-2/3">
                         <a href="https://us02web.zoom.us/meeting/register/tZctcuqtrjIrGNIR_auzygWY9VY0TOFXKLQ4" target="_blank">
                           <button className="bg-green-600 text-white rounded-lg cursor-pointer">
-                            <div> <strong>Yes I'am ready</strong> </div>
+                            <div> <strong>Yes I&apos;am ready</strong> </div>
                             <div>Claim your ₹999 value 90 minutes sucession planing webinar for FREE</div>
                             <div><strong>Join</strong></div>
                           </button>

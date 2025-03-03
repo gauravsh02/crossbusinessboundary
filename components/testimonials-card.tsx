@@ -1,10 +1,10 @@
-import { BellRing, Check } from "lucide-react";
-
 import { cn } from "@/lib/utils";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { Switch } from "@/components/ui/switch";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Image from "next/image";
+// import { BellRing, Check } from "lucide-react";
+// import { CardDescription, CardFooter } from "@/components/ui/card";
+// import { Button } from "@/components/ui/button";
+// import { Switch } from "@/components/ui/switch";
 
 const data = 
   {
