@@ -86,7 +86,7 @@ export default function Home() {
               </div>
               <div className="flex flex-wrap w-full rounded-lg items-center justify-items-center">
                 <div className="h-full p-4 lg:w-1/2 flex flex-col items-center justify-items-center"> 
-                  <Image src="/Cash_Rich_Company_venture.png" alt="Cash Rich Company Venture" width={408} height={537} layout="responsive" />
+                  <Image src="/cashrich_company.png" alt="Cash Rich Company Venture" width={400} height={337} layout="responsive" />
                 </div>
                 <div className="h-full p-4 items-center justify-items-center lg:w-1/2">
                   <div className="align-items-center justify-content-center course-content-inner">
@@ -274,7 +274,7 @@ export default function Home() {
               <Image className="bg-white" src="/cross_business_boundary_logo.svg" alt="Cross Business Boundary Logo" width={140} height={70} priority />
               {/* <h4 className="text-3xl fonat-semibold">Cross Business Boundary</h4> */}
               <div className="mt-6 lg:mb-0 mb-6 flex">
-                <a className="mr-2" href="button"> <Image className="bg-white" src="/icons8-x.svg" alt="x" width={24} height={24} /> </a>
+                <a className="mr-2" href="button"> <Image className="bg-white" src="/x.svg" alt="x" width={24} height={24} /> </a>
                 <a className="mr-2" href="button"> <Image className="" src="/facebook.svg" alt="x" width={24} height={24} /> </a>
                 <a className="mr-2" href="button"> <Image className="" src="/instagram.svg" alt="x" width={24} height={24} /> </a>
                 <a className="mr-2" href="button"> <Image className="" src="/linkedin.svg" alt="x" width={24} height={24} /> </a>
